@@ -1,20 +1,5 @@
 ﻿// See https://leetcode.com/problems/rotate-image/
-
-Solution sol = new Solution();
-int[][] matrix = new int[][] { 
-    new int[] { 1,2,3 },
-    new int[] { 4,5,6 },
-    new int[] { 7,8,9 },
-    //{ 7, 4, 1 },
-    //{ 8, 5, 2 },
-    //{ 9, 6, 3 }
-};
-
-sol.Rotate(matrix);
-
-
-
-public class Solution
+public class RotateMatrix
 {
 
     public void Rotate(int[][] matrix)
